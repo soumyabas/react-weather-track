@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather Track</h1>
-        <Weather />
+        <Weather defaultCity ="London" />
         <footer>
           This project is coded by {" "}
           <a href=" https://soumyabasnet.com/ ">Soumya Basnet </a>{" "} , and  {" "}
