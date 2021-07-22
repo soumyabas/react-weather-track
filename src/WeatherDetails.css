@@ -1,0 +1,38 @@
+.WeatherDetails {
+  color: #969696;
+  border: 2px solid #dad9d9;
+  border-radius: 10px;
+  width: 500px;
+  padding: 15px;
+}
+.WeatherDetails h2 {
+  margin: 10px 0px 0px 0px;
+}
+
+.WeatherDetails ul {
+  list-style-type: none;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+
+.WeatherDetails img {
+  width: 80px;
+  margin: 0px;
+}
+
+.unit {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+
+.Temp {
+  font-size: 45px;
+  margin: 0px;
+}
+
+.img {
+  width: 20px;
+  margin:0px;
+}
