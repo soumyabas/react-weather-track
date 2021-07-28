@@ -18,7 +18,7 @@ export default function Weather(props) {
       wind: Math.round(response.data.wind.speed),
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      iconImg: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      iconImg: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -45,7 +45,7 @@ export default function Weather(props) {
         <div className="row">
           <div className="col-9">
             <form onSubmit={handleSubmit}>
-              <input type="text" placeholder="Enter name of the city" className={"Enter"} onChange= {handleCitySearch} />
+              <input type="text" placeholder="Enter name of the city" className={"Enter"} onChange={handleCitySearch} />
               <input type="Submit" value="Search" className="btn-btn-primary" />
             </form>
             <WeatherDetails data={weatherData} />

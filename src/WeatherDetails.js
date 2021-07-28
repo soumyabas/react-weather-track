@@ -18,15 +18,16 @@ export default function WeatherDetails(props) {
       </ul>
 
       <div className="row">
-        <div className="col-6" >
-          
+        <div className="col-8" >
           <img
             src={props.data.iconImg}
             alt="cloudy"
           />
           <TempUnits celsius={props.data.temperature} />
         </div>
-        <div className="col-6">
+
+
+        <div className="col-4">
           <ul className="description">
             <li> Humidity: {props.data.humidity}%</li>
             <li>Wind : {props.data.wind} km/hr</li>
