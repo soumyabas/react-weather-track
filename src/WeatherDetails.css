@@ -15,8 +15,7 @@
   padding: 0px;
 }
 
-.WeatherDetails img {
-  width: 80px;
-  display: inline;
+.WeatherDetails canvas {
+  display: inline-block;
+  margin: 15px 10px 0px 0px;
 }
-

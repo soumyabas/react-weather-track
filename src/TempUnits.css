@@ -3,11 +3,12 @@
   font-weight: bold;
   position: relative;
   top: -20px;
-  display: inline;
+  display: inline-block;
 }
 
 .Temp {
   font-size: 45px;
   margin: 0px;
-  display: inline;
+  display: inline-block;
+  
 }
