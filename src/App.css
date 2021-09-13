@@ -1,4 +1,10 @@
 .App {
-  color: #d8d8d8;
-  
+  color: #c7c5c5;
+}
+
+.App footer {
+  font-size: 15px;
+  font-style: italic;
+  font-family: sans-serif;
+  margin-top: 10px;
 }

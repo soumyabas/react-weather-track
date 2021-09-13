@@ -9,11 +9,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather Track</h1>
-        <Weather defaultCity ="London" />
+        <Weather defaultCity="London" />
         <footer>
           This project is coded by {" "}
-          <a href=" https://soumyabasnet.com/ ">Soumya Basnet </a>{" "} , and  {" "}
-          <a href="https://github.com/soumyabas/react-weather-track" target=" ">open-sourced on GitHub</a>
+          <a href=" https://soumyabasnet.com/ ">Soumya Basnet </a>, {" "} open-sourced on {" "}
+          <a href="https://github.com/soumyabas/react-weather-track" target=" ">GitHub</a>  , {" "} published on {" "}
+          <a href="https://elated-jepsen-72718b.netlify.app/" target=" ">netlify</a>
         </footer>
       </div>
     </div>

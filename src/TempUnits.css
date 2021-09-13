@@ -4,11 +4,19 @@
   position: relative;
   top: -20px;
   display: inline-block;
+  
 }
 
 .Temp {
   font-size: 45px;
   margin: 0px;
   display: inline-block;
-  
+}
+
+.float-left {
+  float: left;
+}
+
+.TempUnits {
+  margin-left: 20px;
 }
