@@ -16,7 +16,7 @@ export default function TempUnits(props) {
   if (unit === "celsius") {
     return (
       
-      <div className="TempUnits" className="float-left">
+      <div className="float-left TempUnits">
         
         <span className="Temp">{Math.round(props.celsius)}</span>
         <span className="unit">
