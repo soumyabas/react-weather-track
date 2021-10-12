@@ -7,4 +7,15 @@
   font-style: italic;
   font-family: sans-serif;
   margin-top: 10px;
+  
 }
+
+.container {
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+  margin-right: 290px;
+}
+

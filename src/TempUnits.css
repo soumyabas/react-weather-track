@@ -4,13 +4,14 @@
   position: relative;
   top: -20px;
   display: inline-block;
-  
 }
 
 .Temp {
-  font-size: 45px;
+  font-size: 55px;
   margin: 0px;
   display: inline-block;
+  font-style: bolder;
+  font-family: sans-serif;
 }
 
 .float-left {

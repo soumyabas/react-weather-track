@@ -7,7 +7,7 @@ import WeatherForecast from "./WeatherForecast.js";
 
 export default function Weather(props) {
 
-  const [weatherData, setWeatherData] = useState({ ready:false });
+  const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity)
 
   function handleResponse(response) {
@@ -20,7 +20,7 @@ export default function Weather(props) {
       wind: Math.round(response.data.wind.speed),
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      icon: response.data.weather[0].icon, 
+      icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -42,15 +42,16 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
+
       <div className="Weather">
         <div className="row">
-          <div className="col-9">
+          <div className="col">
             <form onSubmit={handleSubmit}>
               <input type="text" placeholder="Enter name of the city" className={"Enter"} onChange={handleCitySearch} />
-              <input type="Submit" value="Search" className="btn-btn-primary" />
+              <input type="Submit" value="🔎 Search" className="btn-btn-primary" />
             </form>
             <WeatherDetails data={weatherData} />
-            <WeatherForecast coordinates={weatherData.coordinates}/>
+            <WeatherForecast coordinates={weatherData.coordinates} />
           </div>
         </div>
       </div >

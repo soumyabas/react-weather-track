@@ -7,8 +7,8 @@ import Weather from "./Weather"
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <h1>Weather Track</h1>
+      <div className="container" >
+        <h1>Weather Forecast</h1>
         <Weather defaultCity="London" />
         <footer>
           This project is coded by {" "}
