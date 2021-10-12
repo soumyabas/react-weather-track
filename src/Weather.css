@@ -2,12 +2,16 @@
   border-color: #aaaaaa;
   margin: 6px;
   border-radius: 5px;
+  font-family: sans-serif;
 }
 .btn-btn-primary {
-  background-color: #7e2aff;
+  background-color: #ffb319;
   border: none;
   border-radius: 4px;
-  padding: 20px, 20px, 20px, 20px;
+  color: white;
+  text-decoration: bolder;
+  font-family: sans-serif;
+  font-size: 1rem;
 }
 
 .Weather input {
@@ -15,28 +19,25 @@
 }
 
 .Weather {
-  border: 2px solid #dad9d9;
-  border-radius: 10px;
+  border: 3px solid #dad9d9;
+  border-radius: 20px;
   width: 600px;
   padding: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #e8f6ef;
 }
 
 .row {
-  background: #ffc700;
+  background: #e8f6ef;
   border-radius: 10px;
 }
 
 .WeatherDetails {
   max-width: 400px;
   margin-left: 20px;
-  color: #7e2aff;
-}
-
-h2 {
-  margin: 10px 0px 0px 0px;
+  color: #7f2bff;
 }
 
 .WeatherDetails ul {
@@ -52,4 +53,24 @@ h2 {
 
 .float-right {
   float: right;
+}
+
+.today {
+  font-size: 1.4rem;
+  text-decoration: bold;
+}
+
+h2 {
+  max-width: 600px;
+  text-decoration: bolder;
+}
+
+.description {
+  font-size: 1.1rem;
+  text-decoration: bolder;
+  text-align: right;
+}
+
+.WeatherForecast-day {
+  color: #7f2bff;
 }

@@ -10,7 +10,7 @@ export default function WeatherDetails(props) {
     <div className="WeatherDetails">
       <h2>{props.data.city}</h2>
       <ul>
-        <li>
+        <li className="today">
           <DateToday date={props.data.date} />
         </li>
         <li className="text-capitalize">
