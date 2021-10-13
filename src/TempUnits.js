@@ -28,7 +28,7 @@ export default function TempUnits(props) {
   } else {
     let fahrenheit = (props.celsius * 9/5) + 32
     return (
-      <div classname="TempUnits">
+      <div className="TempUnits">
         <span className="Temp">{Math.round(fahrenheit)} </span>
         <span className="unit">
           <a href="/" onClick={showCelsius}> °C </a> {" "}
