@@ -32,7 +32,7 @@ export default function WeatherDetails(props) {
           <div className="float-right">
             <ul className="description">
               <li> Humidity: {props.data.humidity}%</li>
-              <li>Wind : {props.data.wind} km/hr</li>
+              <li>Wind: {props.data.wind} km/hr</li>
             </ul>
           </div>
         </div>
