@@ -40,6 +40,8 @@ export default function Weather(props) {
     setCity(event.target.value);
   }
 
+
+
   if (weatherData.ready) {
     return (
 
@@ -48,7 +50,7 @@ export default function Weather(props) {
           <div className="col">
             <form onSubmit={handleSubmit}>
               <input type="text" placeholder="Enter name of the city" className={"Enter"} onChange={handleCitySearch} />
-              <input type="Submit" value="🔎Search " className="btn-btn-primary" />
+              <input type="Submit" value="Search 🔎 " className="btn-btn-primary" />
             </form>
             <WeatherDetails data={weatherData} />
             <WeatherForecast coordinates={weatherData.coordinates} />
