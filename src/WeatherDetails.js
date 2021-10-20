@@ -8,7 +8,7 @@ export default function WeatherDetails(props) {
 
   return (
     <div className="WeatherDetails">
-      <h2>{props.data.city}</h2>
+      <h2 className= {"CityTitle"}>{props.data.city}</h2>
       <ul>
         <li className="today">
           <DateToday date={props.data.date} />
